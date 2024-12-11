@@ -7,7 +7,7 @@ class Persona:
 
 
     #metodos: 1 metodo por cada caso de uso
-    #def nombreCasodeUso(self,parametros)(precondiciones separadas con comas
+    #def nombreCasodeUso(self,parametros)(precondiciones separadas con comas)
     def valorerror (self, peso,altura):
         if not (1 <= peso <= 600):
             raise ValueError("Ingresa un peso válido")
